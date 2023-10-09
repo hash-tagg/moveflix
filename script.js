@@ -56,7 +56,7 @@ function loadMovieDetails(){
             // console.log(movie.dataset.id);
             searchList.classList.add('hide-search-list');
             movieSearchBox.value = "";
-            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=e2e3b5fb`);
+            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=e199cdac`);
             const movieDetails = await result.json();
             // console.log(movieDetails);
             displayMovieDetails(movieDetails);
